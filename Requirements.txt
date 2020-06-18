@@ -1,0 +1,35 @@
+1. The returned json should be exactly the same as the fake/api response json files
+2. Create the Collection Types and provide the screenshots of the each collection type. Show the relation screen.
+3. Create a Postman endpoints and save it so I can re-use.
+4. On system startup load the data to the database if it's empty.
+5. Check the json responses when filtering as per the spec.
+6. Implement ALL the endponts as shown in: ui/api/shops.js
+
+The structure should/could be as follows, as long as the json returns as expected.
+Menu
+	MenuCategory
+		SubMenuCategory
+		SubMenuCategory
+		SubMenuCategory
+
+	MenuCategory
+		SubMenuCategory
+		SubMenuCategory
+		SubMenuCategory
+
+
+
+AttributeCategory
+	Attribute
+	Attribute
+	Attribute
+
+Availability
+
+Badge
+
+Brand
+
+Color
+
+Product
