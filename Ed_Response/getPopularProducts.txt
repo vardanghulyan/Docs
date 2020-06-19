@@ -1,0 +1,6 @@
+options._limit = options.limit;
+options.category = 'instruments';
+const result = await fetch(`${REACT_APP_SERVER_URL}/products/popular?${qs.stringify(options)}`)
+         .then((response) => response.json());
+
+getPopularProducts - there is an issue with the query - returns an empty result

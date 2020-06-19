@@ -1,0 +1,6 @@
+options._limit = options.limit;
+        options.category = 'instruments';
+        const realApi = await fetch(`${REACT_APP_SERVER_URL}/products/suggestions?${qs.stringify({ ...options, query })}`)
+            .then((response) => response.json());
+
+the getSuggesions json returns []

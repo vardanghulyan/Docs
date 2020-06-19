@@ -1,0 +1,16 @@
+---- Please disregards the previous json
+
+Please remove options._limit and change to options.limit
+
+
+If I add a category then I get this error message
+getRelatedProducts - throws TypeError 
+[2020-06-19T19:38:42.886Z] error TypeError: Cannot read property 'slug' of null
+    at /Users/vardanghulyan/tmp/strapi/json/api-delivery2/api/product/controllers/product.js:19:34
+    at Array.reduce (<anonymous>)
+    at populate (/Users/vardanghulyan/tmp/strapi/json/api-delivery2/api/product/controllers/product.js:18:55)
+    at Array.map (<anonymous>)
+    at Object.related (/Users/vardanghulyan/tmp/strapi/json/api-delivery2/api/product/controllers/product.js:120:25)
+
+
+If I remove the category from the product then I get an empty result
