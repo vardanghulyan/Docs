@@ -1,3 +1,12 @@
+***** The UI is available. I only need the strapi api which return a valid json responses. ***
+
+The naming convention can be different, as long as the json returns as expected.
+The expected json responses (to compare) can be found under Docs/Expected_Response directory.
+In the Docs/ui/api/shop.js file you can find the getters with their corresponding endpoint signatures which can help you to create the api.
+The expected response directory (*.json) might not have all the expected responses. You need to make sure you create api endpoints which returns all the valid json responses.
+Each json response should accompany a proof, screenshots, json responses, etc...
+
+
 1. The returned json should be exactly the same as the fake/api response json files
 2. Create the Collection Types and provide the screenshots of the each collection type. Show the relation screen.
 3. Create a Postman endpoints and save it so I can re-use.
@@ -5,6 +14,7 @@
 	*** In config/functions/bootstrap.js add a function reference to load the data to the database
 5. Check the json responses when filtering as per the spec.
 6. Implement ALL the endponts as shown in: ui/api/shops.js
+7. Make a screenshot for each collection type on data entry and document how to use the the collection type.
 
 The structure should/could be as follows, as long as the json returns as expected (Docs/Expected_Response/**.json)
 Menu
