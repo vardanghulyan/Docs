@@ -9,12 +9,23 @@ Each json response should accompany a proof, screenshots, json responses, etc...
 
 1. The returned json should be exactly the same as the fake/api response json files
 2. Create the Collection Types and provide the screenshots of the each collection type. Show the relation screen.
-3. Create a Postman endpoints and save it so I can re-use.
-4. On system startup load the data to the database if it's empty.
+3. Add data to to each collection type. Make a screenshot of each collection type.
+4. Create a Postman endpoints and save it for:
+	i. getCategories
+	ii. getCategoryBySlug
+	iii. getDiscountedProducts
+	iv. getLatestProducts
+	v. getPopularProducts
+	vi. getProductBySlug
+	vii. getProductsList
+	viii. getRelatedProducts
+	iix. getSuggestions
+	ix. getTopRatedProducts
+5. On system startup load the data to the database if it's empty.
 	*** In config/functions/bootstrap.js add a function reference to load the data to the database
-5. Check the json responses when filtering as per the spec.
+6. Compare the json responses when filtering as per the spec.
 6. Implement ALL the endponts as shown in: ui/api/shops.js
-7. Make a screenshot for each collection type on data entry and document how to use the the collection type.
+
 
 The structure should/could be as follows, as long as the json returns as expected (Docs/Expected_Response/**.json)
 Menu
