@@ -1,0 +1,28 @@
+My requirements:
+1- Admin Panel
+	Dashboard to control and configure. Add categories and stores for sellers + Seller report for every week
+2-Seller Dashboard
+	To upload products and manage it
+3-Payment gateway
+	Paypal, Stripe
+4-Shopping cart
+5-User profile
+	(I like to have user profile with Geolocation and shipping address and phone number, Order history )
+6-Social login & user registration/login
+	Instagram, Twitter, Facebook to loginin
+7-Firebase or mongoDB
+8-Notification
+	I like to send some notification to my customers
+9 - Rate the Seller
+10-Seller profile
+11- Logistics and shipping
+********************************************
+Technology requirements:
+1-Nodejs
+2-Reactjs
+3-React Native
+4-mongoDB
+5-Firebase
+Note:
+Webapp contains all the futures for sellers but not the mobile apps
+
